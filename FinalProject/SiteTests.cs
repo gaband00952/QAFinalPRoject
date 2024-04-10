@@ -6,14 +6,10 @@ using System.Threading.Tasks;
 
 namespace FinalProject
 {
-    internal class Program
+    internal class SiteTests
     {
-        static void Main(string[] args)
-        {
 
 
 
-
-        }
     }
 }
