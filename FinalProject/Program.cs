@@ -16,8 +16,16 @@ namespace FinalProject
         {
             IWebDriver driver = new ChromeDriver(@"C:\Selenium");
 
-
+            driver.Url = "http://10.157.123.12/site8/Login.php";
 
         }
+            
+            public static void SiteReset()
+            {
+
+            string myConnectionString = "server=10.157.123.12;database=bitter-site8;uid=site8;pwd=gP0Sdwf0Ga4Tij20;";
+           
+
+            }
     }
 }
