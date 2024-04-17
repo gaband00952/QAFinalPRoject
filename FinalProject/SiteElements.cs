@@ -15,7 +15,6 @@ namespace FinalProject
         public static IWebElement txtEnterUsername(IWebDriver driver)
         {
             return driver.FindElement(By.Id("username"));
-
         }
 
         //Enter password on the login page
@@ -33,12 +32,11 @@ namespace FinalProject
         }
 
         ////Navigate to the signup page
-        //public static IWebElement CreateNewUser(IWebDriver driver)
-        //{
-        //    return driver.FindElement(By.Id(""));
+        public static IWebElement CreateNewUser(IWebDriver driver)
+        {
+            return driver.FindElement(By.LinkText("Click Here"));
 
-        //}
-
+        }
 
         //Enter first name  on the sign up  page
         public static IWebElement txtEnterFirstName(IWebDriver driver)

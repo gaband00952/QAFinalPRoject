@@ -14,12 +14,22 @@ namespace FinalProject
     {
         static void Main(string[] args)
         {
+            //Test 1
+            //Navigate to the regestration page to make sure the link works
             IWebDriver driver = new ChromeDriver(@"C:\Selenium");
 
             driver.Url = "http://10.157.123.12/site8/Login.php";
 
+            IWebElement ClickHere = SiteElements.CreateNewUser(driver);
+
+            ClickHere.Click();
         }
-            
+
+    
+
+
+
+
             public static void SiteReset()
             {
 
