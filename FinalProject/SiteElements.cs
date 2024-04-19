@@ -11,10 +11,14 @@ namespace FinalProject
 {
     public class SiteElements
     {
+
+        //Enter username on the login page
+
         public static IWebElement txtEnterUsername(IWebDriver driver)
         {
             return driver.FindElement(By.Id("username"));
         }
+
 
         //Enter password on the login page
         public static IWebElement txtEnterPassword(IWebDriver driver)
@@ -27,21 +31,12 @@ namespace FinalProject
         public static IWebElement btnLogin(IWebDriver driver)
         {
             return driver.FindElement(By.Id("button"));
-
         }
-
-        ////Navigate to the signup page
-        //public static IWebElement CreateNewUser(IWebDriver driver)
-        //{
-        //    return driver.FindElement(By.LinkText("Click Here"));
-
-        //}
 
         //Enter first name  on the sign up  page
         public static IWebElement txtEnterFirstName(IWebDriver driver)
         {
             return driver.FindElement(By.Id("firstname"));
-
         }
 
         //enter last name on the sign up page
@@ -134,17 +129,6 @@ namespace FinalProject
             return driver.FindElement(By.Id("button"));
 
         }
-
-
-
-
-
-
-
-
-
-
-
-
+       
     }
 }
